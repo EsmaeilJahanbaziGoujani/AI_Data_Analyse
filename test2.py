@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 # 1. Read the CSV file
 df = pd.read_csv("sales.csv")
 

@@ -6,6 +6,7 @@
 #
 # x["Revenue"] = x["Price"] * x["Quantity"]
 #
+
 # grouped = x.groupby(["Date", "Product"])["Revenue"].sum().reset_index()
 # print(grouped)
 #

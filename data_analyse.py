@@ -3,6 +3,7 @@
 #
 # x = pd.read_csv('sales.csv')  # Reads the 'sales.csv' file into a DataFrame called x
 #
+
 # x['Revenue'] = x['Price'] * x['Quantity']  # Creates a new column 'Revenue' by multiplying 'Price' and 'Quantity' for each row
 #
 # grouped = x.groupby(['Date', 'Product'])['Revenue'].sum().reset_index()  # Groups by 'Date' and 'Product', then sums 'Revenue' for each group and resets index to create a summarized DataFrame, sums the 'Revenue' for each group, and resets the index
